@@ -35,6 +35,27 @@ body {
     line-height: 70px;
 }
 
+.bg-text {
+    color: #0B0614;
+    text-align: center;
+    font-size: 110px;
+    font-family: "MontBold";
+    font-style: normal;
+    font-weight: 800;
+    line-height: 120px;
+    width: 889px;
+}
+
+.info {
+    color: rgba(11, 6, 20, 0.60);
+    text-align: center;
+    font-size: 16px;
+    font-family: "MontBold";
+    font-style: normal;
+    font-weight: 600;
+    line-height: 22px;
+}
+
 /* ----------- header ------------- */
 .header__container {
     margin-top: 31px;
@@ -158,14 +179,6 @@ body {
 .search-localisation__text {
     margin-top: -618px;
     margin-left: 307px;
-    color: #0B0614;
-    text-align: center;
-    font-size: 110px;
-    font-family: "MontBold";
-    font-style: normal;
-    font-weight: 800;
-    line-height: 120px;
-    width: 889px;
 }
 
 .search-localisation__mask-img {
@@ -455,7 +468,7 @@ option:hover {
 
 
 .description-work__item {
-    margin-right: 30px;
+    margin-right: 27px;
     border-radius: 20px;
     /* padding: 45px 112px 80px 112px; */
     width: 393px;
@@ -493,4 +506,100 @@ option:hover {
     margin-left: 41px;
     margin-top: -5px;
     width: 301px;
+}
+
+/* ----------- contact-guide --------- */
+.contact-guide__container {
+    margin-top: 190px;
+    height: 854px;
+}
+
+.background__img {
+    /* position: relative; */
+    margin-left: 70px;
+    width: 1360px;
+    height: 740px;
+    border-radius: 20px;
+}
+
+.background__text {
+    margin-top: -578px;
+    margin-left: 282px;
+    width: 939px;
+}
+
+.background__mask-img {
+    margin-top: -407px;
+    margin-left: 70px;
+    width: 1360px;
+    height: 740px;
+    border-radius: 20px;
+}
+
+.contact-guide__communication {
+    position: absolute;
+    width: 1240px;
+    height: 227px;
+    border-radius: 24px;
+    background: #FFF;
+    box-shadow: 0px 30px 60px 0px rgba(198, 191, 191, 0.18);
+}
+
+.communication__text {
+    width: 572px;
+    color: #0B0614;
+    font-size: 40px;
+    font-family: "MontSemiBold";
+    font-style: normal;
+    font-weight: 700;
+    line-height: 54px;
+}
+
+.text-orange {
+    color: #FF5029;
+}
+
+.contact-guide__communication {
+    position: relative;
+    top: -118px;
+    left: 130px;
+    right: 0px;
+}
+
+.communication__text {
+    padding: 60px 45px 59px 45px;
+}
+
+.communication__right-block {
+    position: relative;
+    left: 939px;
+    right: 0px;
+    top: -198px;
+    width: 262px;
+}
+
+.communication__button {
+    margin-top: 12px;
+    padding: 20px 41px 20px 40px;
+    color: #FFF;
+    font-size: 18px;
+    font-family: "MontBold";
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px;
+}
+
+.communication__img-people {
+    display: inline-block;
+    margin-top: 25px;
+    margin-left: 2px;
+}
+
+.communication__text-info {
+    display: block;
+    width: 103px;
+    margin-top: -53px;
+    margin-left: 157px;
+    text-align: left;
+    font-weight: 800;
 }
