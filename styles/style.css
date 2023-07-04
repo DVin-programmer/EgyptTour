@@ -1,0 +1,433 @@
+/* ----------- общие стили -----------*/
+body {
+    width: 1500px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.menu {
+    list-style: none;
+    display: inline-block;
+}
+
+.button {
+    cursor: pointer;
+    border: none;
+    border-radius: 12px;
+    background: #FF5029;
+    padding: 19px 30px;
+    justify-content: center;
+    align-items: center;
+    color: #FFF;
+    font-size: 17px;
+    font-family: "MontRegular";
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.title {
+    color: #0B0614;
+    font-size: 64px;
+    font-family: "MontBold";
+    font-style: normal;
+    font-weight: 800;
+    line-height: 70px;
+}
+
+/* ----------- header ------------- */
+.header__container {
+    margin-top: 31px;
+    /* margin-left: 130px; */
+    padding: 20px 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+.header__logo-search {
+    display: inline-block;
+    margin-left: 71px;
+}
+
+.header__logo {
+    display: inline-block;
+    margin-top: -42px;
+    margin-left: 29px;
+    vertical-align: middle;
+    color: var(--text, #0B0614);
+    font-size: 28px;
+    font-family: "MontBold";
+    font-style: normal;
+    font-weight: 800;
+    line-height: 36px;
+}
+
+.header__v-line {
+    display: inline-block;
+    margin-top: -6px;
+    margin-left: 22px;
+    margin-right: 24px;
+    width: 2px;
+    height: 32px;
+    background: rgba(11, 6, 20, 0.30);
+    border: none;
+}
+
+.header__search {
+    margin-top: -41px;
+    margin-left: 221px;
+}
+
+.search__img {
+    width: 24px;
+    height: 24px;
+}
+
+.search__text {
+    margin-top: -29px;
+    margin-left: 36px;
+
+}
+
+.search__input {
+    border: none;
+    color: rgba(11, 6, 20, 0.30);
+    font-size: 16px;
+    font-family: "MontBold";
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+/* ------- nav__menu  ------*/
+.header-nav {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+}
+
+.header-nav__menu {
+    margin-top: -24px;
+    margin-left: 663px;
+}
+
+.menu__item {
+    display: inline-block;
+    padding-right: 36px;
+}
+
+.menu__link {
+    text-decoration: none;
+    cursor: pointer;
+    color: var(--text, #0B0614);
+    font-size: 16px;
+    font-family: "MontBold";
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.menu__link:hover {
+    cursor: pointer;
+    color: #FF5029
+}
+
+.header-nav__button {
+    margin-top: -42px;
+    margin-left: 5px;
+}
+
+/* header__search-localisation */
+/* .header__search-localisation {
+    width: 1360px;
+    height: 740px;
+} */
+
+.search-localisation__img {
+    background-image: url(../img/header/background-image.png);
+    background-size: cover;
+    background-size: no-repeat;
+    width: 1360px;
+    height: 740px;
+    border-radius: 24px;
+    /* background: #D9D9D9; */
+    margin-top: 9px;
+    margin-left: 70px;
+}
+
+.search-localisation__text {
+    margin-top: -618px;
+    margin-left: 307px;
+    color: #0B0614;
+    text-align: center;
+    font-size: 110px;
+    font-family: "MontBold";
+    font-style: normal;
+    font-weight: 800;
+    line-height: 120px;
+    width: 889px;
+}
+
+.search-localisation__mask-img {
+    mask-image: url(../img/header/background-image.png);
+    mask-size: cover;
+    mask-size: no-repeat;
+    -webkit-mask-image: url(../img/header/background-image.png);
+    -webkit-mask-size: cover;
+    -webkit-mask-size: no-repeat;
+    width: 1360px;
+    height: 733px;
+    border-radius: 24px;
+    margin-top: -360px;
+    margin-left: 70px;
+}
+
+/* список с inputs  */
+.search-localisation__info {
+    /* display: flex; */
+    position: relative;
+    top: -83px;
+    left: 131px;
+    width: 1240px;
+    height: 128px;
+    border-radius: 24px;
+    background: #FFF;
+    box-shadow: 0px 30px 60px 0px rgba(198, 191, 191, 0.18);
+
+}
+
+.info__list-select {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    list-style: none;
+    padding-top: 33px;
+}
+
+.list-select__item {
+    display: inline-block;
+    margin-right: 22px;
+}
+
+.list-select__label {
+    opacity: 0.5;
+    color: var(--text, #0B0614);
+    font-size: 16px;
+    font-family: "MontSemiBold";
+
+}
+
+.info__select {
+    /* padding-right: 117px;
+    padding-left: 24px;
+    margin-top: 8.5px;
+    margin-left: -4px;
+    margin-right: 24px; */
+    /* padding-right: 117px; */
+
+    /* margin-top: 8.5px; */
+    border: none;
+    color: var(--text, #0B0614);
+    font-size: 20px;
+    font-family: "MontSemiBold";
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px;
+}
+
+.info__button {
+    padding: 27px 31px 27px 32px;
+    margin-left: 0px;
+    margin-top: -10px;
+    border-radius: 16px;
+    font-size: 20px;
+}
+
+.info__v-line {
+    margin-top: -69px;
+    margin-left: 235px;
+    width: 1px;
+    height: 52px;
+    opacity: 0.20000000298023224;
+    background: #0B0614;
+}
+
+.list-select__item:nth-child(1) .info__select {
+    margin-left: -15px;
+    padding-right: 117px;
+    margin-top: -2px;
+}
+
+.list-select__item:nth-child(2) .info__select {
+    margin-left: -15px;
+    margin-top: -2px;
+    /* padding-right: 160px; */
+}
+
+.list-select__item:nth-child(3) .info__select {
+    margin-left: -15px;
+    margin-top: -2px;
+    /* padding-right: 158px; */
+    /* 261-24 */
+}
+
+.list-select__item:nth-child(4) .info__select {
+    margin-left: -12px;
+    margin-top: -2px;
+    /* padding-right: 158px; */
+}
+
+.select {
+    width: 100%;
+    /* Убираем браузерную стрелку */
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+    /* Отступы от рамки к тексту */
+    padding: 10px 35px 10px 15px;
+    /* Убираем баузерную обводку*/
+    outline: none;
+    cursor: pointer;
+}
+
+/* Убираем стрелочку в IE 10 и 11 */
+.select::-ms-expand {
+    display: none;
+}
+
+.select:focus {
+    outline: none;
+    color: var(--text, #0B0614);
+    background-color: #FFF;
+    /* box-shadow: 0px 0px 0px 1px #0B0614, 0px 0px 10px #7e9bbd; */
+}
+
+.list-select__wrapper {
+    position: relative;
+}
+
+/* Рисуем стрелочку */
+.list-select__wrapper::before {
+    content: "";
+    position: absolute;
+    top: 13%;
+    /* top: 13%;
+    right: 25px; */
+    left: -2px;
+    display: inline-block;
+    background-image: url("../img/header/chevron-down-1.svg");
+    width: 24px;
+    height: 24px;
+    margin-left: 190px;
+    pointer-events: none;
+}
+
+option:hover {
+    box-shadow: 0 0 10px 100px orange inset;
+}
+
+/* ----- reviews --------- */
+.reviews__title-button {
+    position: absolute;
+}
+
+.reviews__title {
+    position: relative;
+    top: 49px;
+    left: 130px;
+}
+
+.reviews__button {
+    position: relative;
+    top: -72px;
+    padding: 20px 40px;
+    left: 1162px;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.reviews__cards {
+    display: inline-block;
+}
+
+.cards__columns {
+    list-style: none;
+    margin-top: 144px;
+    margin-left: 90px;
+}
+
+.cards__item {
+    display: inline-block;
+    margin-top: 130px;
+    padding: 40px 48px 39px 50px;
+    border-radius: 20px;
+}
+
+.cards__item:nth-child(2) {
+    padding: 40px 46px 39px 47px
+}
+
+
+.cards__item:not(:last-child) {
+    margin-right: 31px;
+}
+
+.cards__item:hover {
+    cursor: pointer;
+    background: #FF5029;
+}
+
+.cards__item:hover>div {
+    color: #fff;
+}
+
+.cards__img-author {
+    margin-left: 1px;
+    width: 184px;
+    height: 184px;
+    border-radius: 188px;
+    border: 2px solid var(--accent, #FF5029);
+}
+
+.cards__full-name {
+    color: var(--text, #0B0614);
+    text-align: center;
+    font-size: 24px;
+    font-family: "MontBold";
+    font-style: normal;
+    font-weight: 800;
+    line-height: 32px;
+    margin-top: 27px;
+}
+
+.cards__full-name::after {
+    content: "";
+    width: 128px;
+    height: 24px;
+    display: block;
+    background-image: url("../img/reviews/stars.svg");
+    background-repeat: no-repeat;
+    margin-top: 13px;
+    margin-left: 31px;
+}
+
+.cards__item:hover>.cards__full-name::after {
+    content: "";
+    width: 128px;
+    height: 24px;
+    display: block;
+    background-image: url("../img/reviews/stars-hover.svg");
+    background-repeat: no-repeat;
+}
+
+
+.cards__info {
+    margin-top: 8px;
+    color: rgba(11, 6, 20, 0.60);
+    text-align: center;
+    font-size: 16px;
+    font-family: "MontBold";
+    font-style: normal;
+    font-weight: 600;
+    line-height: 22px;
+}

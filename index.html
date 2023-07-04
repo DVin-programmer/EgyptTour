@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Egypt Tour</title>
+    <!-- <link rel="icon" href="./img/logo.ico" /> -->
+    <link rel="stylesheet" href="./styles/font-styles.css" />
+    <link rel="stylesheet" href="./styles/style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__container">
+        <div class="header__logo-search logo-search">
+          <span class="header__logo logo">EgyptTour</span>
+          <hr class="header__v-line" />
+          <div class="header__search search">
+            <img
+              class="search__img"
+              src="./img/header/search 1.svg"
+              alt="search"
+            />
+            <div class="search__text">
+              <input class="search__input" type="text" placeholder="Search" />
+            </div>
+          </div>
+        </div>
+
+        <nav class="header__header-nav header-nav">
+          <ul class="header-nav__menu menu">
+            <li class="menu__item">
+              <a class="menu__link" href="" target="_self">Home</a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__link" href="" target="_self">Guides</a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__link" href="" target="_self">About</a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__link" href="" target="_self">Inspiration</a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__link" href="" target="_self">Contact</a>
+            </li>
+          </ul>
+          <button class="header-nav__button button">Sign Up</button>
+        </nav>
+      </div>
+      <section class="header__search-localisation search-localisation">
+        <img
+          class="search-localisation__img"
+          src="./img/header/background-image.png"
+          alt="background-image"
+        />
+        <div class="search-localisation__text">
+          Find the Best Egyptian Guide
+        </div>
+        <img
+          class="search-localisation__mask-img"
+          src="./img/header/mask.png"
+          alt="mask"
+        />
+        <div class="search-localisation__info info">
+          <ul class="info__list-select list-select">
+            <li class="list-select__item">
+              <span class="list-select__label">Gender <br /></span>
+              <div class="list-select__wrapper">
+                <select
+                  class="info__select select"
+                  name="select-gender"
+                  required="required"
+                >
+                  <option value="1">Male</option>
+                  <option value="2">Female</option>
+                </select>
+              </div>
+              <hr class="info__v-line" />
+            </li>
+            <li class="list-select__item">
+              <span class="list-select__label">Age<br /></span>
+              <div class="list-select__wrapper">
+                <select
+                  class="info__select select"
+                  name="select-age"
+                  required="required"
+                >
+                  <option value="1">24+</option>
+                  <option value="2">34+</option>
+                  <option value="3">44+</option>
+                  <option value="4">54+</option>
+                  <option value="5">64+</option>
+                  <option value="6">74+</option>
+                </select>
+              </div>
+              <hr class="info__v-line" />
+            </li>
+            <li class="list-select__item">
+              <span class="list-select__label">Language<br /></span>
+              <div class="list-select__wrapper">
+                <select
+                  class="info__select select"
+                  name="select-language"
+                  required="required"
+                >
+                  <option value="0">English, Arabic</option>
+                  <option value="1">English</option>
+                  <option value="2">Arabic</option>
+                </select>
+              </div>
+              <hr class="info__v-line" />
+            </li>
+            <li class="list-select__item">
+              <span class="list-select__label">Localisation<br /></span>
+              <div class="list-select__wrapper">
+                <select
+                  class="info__select select"
+                  name="select-localisation"
+                  required="required"
+                >
+                  <option value="1">Cairo</option>
+                  <option value="2">Damietta</option>
+                  <option value="3">Daraw</option>
+                  <option value="4">Dishna</option>
+                </select>
+              </div>
+              <hr class="info__v-line" />
+            </li>
+            <li class="list-select__item">
+              <button class="info__button button">Search</button>
+              <!-- <input class="info__input button" type="button" value="Search" /> -->
+            </li>
+          </ul>
+          <!--  -->
+        </div>
+      </section>
+    </header>
+    <section class="reviews">
+      <div class="reviews__container">
+        <div class="reviews__title-button">
+          <h2 class="reviews__title title">Guides for you!</h2>
+          <button class="reviews__button button">See All Guides</button>
+        </div>
+        <div class="reviews__cards cards">
+          <ul class="cards__columns">
+            <li class="cards__item">
+              <img
+                class="cards__img-author"
+                src="./img/reviews/author1.png"
+                alt="author1"
+              />
+              <div class="cards__full-name">Abayomi Mallik</div>
+              <div class="cards__info">1000+ reviews</div>
+            </li>
+            <li class="cards__item">
+              <img
+                class="cards__img-author"
+                src="./img/reviews/author2.png"
+                alt="author2"
+              />
+              <div class="cards__full-name">Berenike Eman</div>
+              <div class="cards__info">1000+ reviews</div>
+            </li>
+            <li class="cards__item">
+              <img
+                class="cards__img-author"
+                src="./img/reviews/author3.png"
+                alt="author3"
+              />
+              <div class="cards__full-name">Abu Bakar</div>
+              <div class="cards__info">1000+ reviews</div>
+            </li>
+            <li class="cards__item">
+              <img
+                class="cards__img-author"
+                src="./img/reviews/author4.png"
+                alt="author4"
+              />
+              <div class="cards__full-name">Dendera Heba</div>
+              <div class="cards__info">1000+ reviews</div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
