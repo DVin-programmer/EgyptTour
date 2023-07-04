@@ -327,6 +327,10 @@ option:hover {
 }
 
 /* ----- reviews --------- */
+.reviews__container {
+    height: 670px;
+}
+
 .reviews__title-button {
     position: absolute;
 }
@@ -420,7 +424,6 @@ option:hover {
     background-repeat: no-repeat;
 }
 
-
 .cards__info {
     margin-top: 8px;
     color: rgba(11, 6, 20, 0.60);
@@ -430,4 +433,64 @@ option:hover {
     font-style: normal;
     font-weight: 600;
     line-height: 22px;
+}
+
+/* ---------- description-work ----------- */
+.description-work__container {
+    margin-top: 190px;
+    padding-left: 130px;
+    height: 716px;
+}
+
+.description-work__title {
+    margin-left: 323px;
+    margin-top: -2px;
+}
+
+.description-work__columns {
+    margin-left: -39px;
+    margin-top: 100px;
+    list-style: none;
+}
+
+
+.description-work__item {
+    margin-right: 30px;
+    border-radius: 20px;
+    /* padding: 45px 112px 80px 112px; */
+    width: 393px;
+    height: 546px;
+    background: #FEF4F5;
+    display: inline-block;
+}
+
+.description-work__image {
+    padding: 45px 112px;
+}
+
+.description-work__item:nth-child(2) .description-work__image {
+    padding: 44px 106px 44px 105px;
+}
+
+.description-work__item:nth-child(3) .description-work__image {
+    padding: 44px 103px 46px 97px;
+}
+
+.description-work__title-card {
+    width: 182px;
+    margin-left: 103px;
+    margin-top: -5px;
+    color: #0B0614;
+    text-align: center;
+    font-size: 40px;
+    font-family: "MontBold";
+    font-style: normal;
+    font-weight: 700;
+    line-height: 50px;
+}
+
+.description-work__item:nth-child(3) .description-work__title-card {
+    margin-left: 41px;
+    margin-top: -5px;
+    width: 301px;
 }
