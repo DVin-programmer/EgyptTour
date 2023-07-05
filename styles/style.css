@@ -56,6 +56,27 @@ body {
     line-height: 22px;
 }
 
+.label {
+    padding: 8px 30px 8px 20px;
+    border-radius: 12px;
+    background: #FEF4F5;
+    color: var(--accent, #FF5029);
+    font-size: 24px;
+    font-family: "MontSemiBold";
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.title_info {
+    color: #0B0614;
+    font-size: 40px;
+    font-family: "MontBold";
+    font-style: normal;
+    font-weight: 700;
+    line-height: 52px;
+}
+
 /* ----------- header ------------- */
 .header__container {
     margin-top: 31px;
@@ -580,4 +601,116 @@ option:hover {
     margin-left: 157px;
     text-align: left;
     font-weight: 800;
+}
+
+/* ------ additional-info ------- */
+.additional-info__container {
+    margin-left: 130px;
+    margin-top: 190px;
+    height: 807px;
+}
+
+.additional-info__title {
+    margin-left: 229px;
+    padding-top: 1px;
+}
+
+.additional-info__cards {
+    margin-top: 100px;
+}
+
+/* left-block */
+.cards__left-block {
+    width: 605px;
+    height: 637px;
+    border-radius: 20px;
+    background: #FFF;
+    box-shadow: 0px 30px 60px 0px rgba(198, 191, 191, 0.15), 0px -8px 20px 0px rgba(235, 235, 235, 0.15);
+}
+
+.left-block__img {
+    width: 547px;
+    height: 368px;
+    border-radius: 49px;
+    padding: 31px 23px 31px 30px;
+}
+
+.left-block__description {
+    margin-left: 30px;
+}
+
+.link {
+    text-decoration: none;
+    color: #0B0614;
+}
+
+
+.left-block__title-arrow {
+    margin-top: 32px;
+    width: 354px;
+    vertical-align: middle;
+}
+
+
+.left-block__arrow {
+    display: inline-block;
+    margin-top: -19px;
+    margin-left: -4px;
+    vertical-align: middle;
+}
+
+/* right-block */
+.cards__right-block {
+    margin-top: -652px;
+    margin-left: 636px;
+}
+
+.right-block__list {
+    list-style: none;
+    padding-left: 0px;
+}
+
+.right-block__item {
+    width: 605px;
+    height: 303px;
+    border-radius: 20px;
+    background: #FFF;
+    box-shadow: 0px 30px 60px 0px rgba(198, 191, 191, 0.15), 0px -8px 20px 0px rgba(235, 235, 235, 0.15);
+}
+
+.right-block__item:nth-child(2) {
+    margin-top: 30px;
+}
+
+.right-block__img {
+    width: 181px;
+    height: 243px;
+    border-radius: 49px;
+    padding: 30px;
+}
+
+.right-block__description {
+    margin-left: 241px;
+    margin-top: -239px;
+}
+
+.right-block__title-arrow {
+    margin-top: 31px;
+}
+
+.right-block__title {
+    width: 354px;
+    color: #0B0614;
+    font-size: 40px;
+    font-family: "MontBold";
+    font-style: normal;
+    font-weight: 700;
+    line-height: 52px;
+    vertical-align: middle;
+}
+
+.right-block__arrow {
+    display: inline-block;
+    margin-left: -4px;
+    vertical-align: middle;
 }
